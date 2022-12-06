@@ -453,7 +453,7 @@ var HeroApp = {
 
 $(function () {
     // 预约人数
-    HeroApp.getBindPerson();
+    // HeroApp.getBindPerson();
 
     $(document).on('click', '.os-type p', function (event) {
         event.preventDefault();
