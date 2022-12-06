@@ -148,7 +148,7 @@ const bs = new BScroll(wrapper, {
 
 
 // let ICON_LINK = "//cdnstatic.herogame.com/static/dragonhunt_herogame_com/pre/m/";
-let ICON_LINK = "";
+let ICON_LINK = "/drawMaps.github.io/app";
 
 let fengImgArr = [];
 let huoImgArr = [];
