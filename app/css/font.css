@@ -1,0 +1,53 @@
+
+/*导入字体*/
+
+@font-face {
+    font-family: 'shs';
+    src: url('../font/SourceHanSansCN-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'shslight';
+    src: url('../font/SourceHanSansCN-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'shscnBold';
+    src: url('../font/SourceHanSansCN-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'shscnHeavy';
+    src: url('../font/SourceHanSansCN-Heavy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'shscnEl';
+    src: url('../font/SourceHanSansCN-ExtraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'shscnRg';
+    src: url('../font/SourceHanSansCN-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'shscnLight';
+    src: url('../font/SourceHanSansCN-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

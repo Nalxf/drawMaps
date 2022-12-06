@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IGame</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <!-- fb share meta -->
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:url" content="">
+    <meta name="twitter:image" content="">
+    <!-- Twitterend -->
+
+    <!-- Remove Tap Highlight on Windows Phone IE -->
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 指示IE以目前可用的最高模式显示内容 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Emulate IE7">
+    <!-- 指示IE使用 <!DOCTYPE> 指令确定如何呈现内容。标准模式指令以IE7 标准模式显示，而 Quirks 模式指令以 IE5 模式显示。 -->
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover,minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- 网页icon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="bower_components/swiper/dist/css/swiper.min.css">
+
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/rem.js"></script>
+
+    <script>
+        if ((/Android|phone|android|mobile|iPad|Windows Phone|iPod|SymbianOS|Nokia|Mobile|Opera Mini/i.test(navigator.userAgent.toLowerCase()))) {
+            location.href = window.location.origin + "/pre/m/index.html"
+        }
+    </script>
+
+<body class="page-loaded header-ready">
+    <!-- 鼠标 -->
+    <div class="custom-cursor"></div>
+
+    <div id="wrap">
+        <div class="swiper" id="page">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide stop-swiping s2">
+
+                    <!-- 地图遮罩 -->
+                    <section class="mapWrap" id="mapWrap">
+                        <div class="maps" id="mps">
+                            <!-- <div class="ani-yun"></div> -->
+                            <!-- <p class="yd yun1"></p>
+                            <p class="yd yun2"></p>
+                            <p class="yd yun3"></p>
+                            <p class="yd yun4"></p> -->
+                            <div id="myWindow">
+                                <div id="myContent">
+                                    <img class="imgmaps" src="images/maps/maps2.png" alt="image" />
+
+                                    <div class="maps-line">
+                                        <span class="mpline1"></span>
+                                        <span class="mpline2"></span>
+                                        <span class="mpline3"></span>
+                                        <span class="mpline4"></span>
+                                    </div>
+                                </div>
+
+
+                                <p class="s2-site s2-site1" data-wrd="1">
+                                    <img src="images/maps/s2-site1.png" alt="">
+
+                                    <span
+                                        class="s2-site-txt animate__animated  animate__pulse animate__infinite"></span>
+                                </p>
+                                <p class="s2-site s2-site2" data-wrd="2">
+                                    <img src="images/maps/s2-site2.png" alt="">
+
+                                    <span
+                                        class="s2-site-txt animate__animated  animate__pulse animate__infinite"></span>
+                                </p>
+                                <p class="s2-site s2-site3" data-wrd="3">
+                                    <img src="images/maps/s2-site3.png" alt="">
+
+                                    <span
+                                        class="s2-site-txt animate__animated  animate__pulse animate__infinite"></span>
+                                </p>
+                                <p class="s2-site s2-site4" data-wrd="4">
+                                    <img src="images/maps/s2-site4.png" alt="">
+
+                                    <span
+                                        class="s2-site-txt animate__animated  animate__pulse animate__infinite"></span>
+                                </p>
+                                <p class="s2-site s2-site5" data-wrd="5">
+                                    <img src="images/maps/s2-site5.png" alt="">
+
+                                    <span
+                                        class="s2-site-txt animate__animated  animate__pulse animate__infinite"></span>
+                                </p>
+
+                                <div id="feng_box"></div>
+                                <div id="huo_box"></div>
+                                <div id="tu_box"></div>
+                                <div id="bing_box"></div>
+                                <div id="sui_box"></div>
+                            </div>
+                        </div>
+                    </section>
+
+
+
+
+                    <!-- 预约人数 -->
+                    <div class="pre-number hide">
+                        <div class="panel"></div>
+                    </div>
+
+                    <div class="s2-stageBox">
+                        <div class="s2-stageBg"></div>
+                        <div class="s2-progressBox">
+                            <div class="s2-progressBar"></div>
+                        </div>
+
+                        <div class="s2-stage-prizes">
+                            <dl class="">
+                                <dt class="prizes-icon"></dt>
+                                <dt class="prizes-icon-after"></dt>
+
+                                <dd class="prizes-number">
+                                    <p>10,000</p>
+                                </dd>
+                                <dd class="prizes-cards">
+                                    <p class="car"></p>
+                                    <p class="car-aft"></p>
+                                </dd>
+                            </dl>
+
+                            <dl class="">
+                                <dt class="prizes-icon"></dt>
+                                <dt class="prizes-icon-after"></dt>
+                                <dd class="prizes-number">
+                                    <p>30,000</p>
+                                </dd>
+                                <dd class="prizes-cards">
+                                    <p class="car"></p>
+                                    <p class="car-aft"></p>
+                                </dd>
+                            </dl>
+
+                            <dl class="">
+                                <dt class="prizes-icon"></dt>
+                                <dt class="prizes-icon-after"></dt>
+                                <dd class="prizes-number">
+                                    <p>50,000</p>
+                                </dd>
+                                <dd class="prizes-cards">
+                                    <p class="car"></p>
+                                    <p class="car-aft"></p>
+                                </dd>
+                            </dl>
+
+                            <dl class="">
+                                <dt class="prizes-icon"></dt>
+                                <dt class="prizes-icon-after"></dt>
+                                <dd class="prizes-number">
+                                    <p>70,000</p>
+                                </dd>
+                                <dd class="prizes-cards">
+                                    <p class="car"></p>
+                                    <p class="car-aft"></p>
+                                </dd>
+                            </dl>
+
+                            <dl class="">
+                                <dt class="prizes-icon"></dt>
+                                <dt class="prizes-icon-after"></dt>
+                                <dd class="prizes-number">
+                                    <p>100,000</p>
+                                </dd>
+                                <dd class="prizes-cards">
+                                    <p class="car"></p>
+                                    <p class="car-aft"></p>
+                                </dd>
+                        </div>
+                    </div>
+
+                    <!-- 放大缩小 -->
+                    <div class="btn-scale">
+                        <span class="btn btn-sup" data-zoom-up>+</span>
+                        <span class="btn btn-sdown" data-zoom-down>-</span>
+                        <em class="after"></em>
+                    </div>
+
+                    <!-- 官网 -->
+                    <div class="link link-gw">
+                        <a href="javascript:;">
+                            <div class="words">
+                                <div class="first" data-splitting>OFFICIAL WEBSITE</div>
+                                <div class="second" data-splitting>OFFICIAL WEBSITE</div>
+                            </div>
+                            <b></b>
+                        </a>
+                    </div>
+
+                    <!-- 上一页 -->
+                    <div class="next">
+                        <span></span>
+                        <b class="ani-after"></b>
+                        <div class="icon-next"></div>
+                    </div>
+
+                    <!-- 下一页 -->
+                    <div class="up">
+                        <span></span>
+                        <b class="ani-after"></b>
+                        <div class="icon-next"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 地图对应世界观 -->
+    <div class="maps-world">
+        <div class="world-mask"></div>
+        <div class="worldbg world-cen1">
+            <dl>
+                <dt>
+                    <img class="imgcove" src="images/maps/world/pic1.png" alt="">
+                </dt>
+                <span class="line"></span>
+
+                <dd>
+                    <p class="world-title"></p>
+                    <em>The two of them returned to the lab and Mia regained faith and devoted herself to research
+                        again. For another eternity, the monitor sounded once again. As Mia cried in surprise, the 108th
+                        experiment was a success! </em>
+                </dd>
+
+                <dd class="btn btn-world-pre"></dd>
+            </dl>
+        </div>
+
+        <div class="worldbg world-cen2">
+            <dl>
+                <dt>
+                    <img class="imgcove" src="images/maps/world/pic2.png" alt="">
+                </dt>
+                <span class="line"></span>
+
+                <dd>
+                    <p class="world-title"></p>
+                    <em>During the ceremony, Natalie was awarded the title "Irenda's Light" and a medal by newly
+                        promoted Legate Herro. The unique title would be her certificate of merit. At the sight of
+                        Natalie waving to the audience and Link who was equally delighted, Herro was proud of them.</em>
+                </dd>
+
+                <dd class="btn btn-world-pre"></dd>
+            </dl>
+        </div>
+
+        <div class="worldbg world-cen3">
+            <dl>
+                <dt>
+                    <img class="imgcove" src="images/maps/world/pic3.png" alt="">
+                </dt>
+                <span class="line"></span>
+
+                <dd>
+                    <p class="world-title"></p>
+                    <em>A dazzling azure light caught the eyes of Coatl and Milo — it was from Bobo and the mysterious
+                        Book of Future on him! Blessed by the Book of Future, Bobo started to emit blue-gold energy
+                        fluctuations, and the ancient aura made Coatl freeze in place. Bobo raised the claymore and
+                        easily split the two magical forces, even the raging waves into two!
+                        Sensing the aura exclusive to the most ancient dragons in Bobo, Coatl respectfully bent toward
+                        Bobo.</em>
+                </dd>
+
+                <dd class="btn btn-world-pre"></dd>
+            </dl>
+        </div>
+
+        <div class="worldbg world-cen4">
+            <dl>
+                <dt>
+                    <img class="imgcove" src="images/maps/world/pic4.png" alt="">
+                </dt>
+                <span class="line"></span>
+
+                <dd>
+                    <p class="world-title"></p>
+                    <em>A dazzling azure light caught the eyes of Coatl and Milo — it was from Bobo and the mysterious
+                        Book of Future on him! Blessed by the Book of Future, Bobo started to emit blue-gold energy
+                        fluctuations, and the ancient aura made Coatl freeze in place. Bobo raised the claymore and
+                        easily split the two magical forces, even the raging waves into two!
+                        Sensing the aura exclusive to the most ancient dragons in Bobo, Coatl respectfully bent toward
+                        Bobo.</em>
+                </dd>
+
+                <dd class="btn btn-world-pre"></dd>
+            </dl>
+        </div>
+
+        <div class="worldbg world-cen5">
+            <dl>
+                <dt>
+                    <img class="imgcove" src="images/maps/world/pic5.png" alt="">
+                </dt>
+                <span class="line"></span>
+
+                <dd>
+                    <p class="world-title"></p>
+                    <em>Looking at her sister's wounded hands, Elia walked out of the room in silence and went to
+                        Moonlight Lake, where she dreamed of confessing her love to Dan. Like her sister, her hands were
+                        also covered in wounds. She took out the harmonica she had prepared with all her heart and
+                        tearfully tossed it into the lake.</em>
+                </dd>
+
+                <dd class="btn btn-world-pre"></dd>
+            </dl>
+        </div>
+    </div>
+</body>
+
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/swiper/dist/js/swiper.min.js"></script>
+<script src="bower_components/axios/dist/axios.min.js"></script>
+<script src="bower_components/layer/dist/layer.js"></script>
+
+<script src="js/lib/bundle.js"></script>
+<script src="js/lib/gsap.min.js"></script>
+
+<script src="js/common.js"></script>
+<script src="js/style.js"></script>
+
+<script src="https://unpkg.com/@better-scroll/core@latest/dist/core.js"></script>
+<script type="text/javascript" src="js/lib/vframeplayer.min.js"></script>
+<script src="js/maps.js"></script>
+<script src="js/main.js"></script>
+<script>
+
+    // GA 
+    function Google_gtag(oEle, params) {
+        let $oEle = $(oEle);
+        $(document).on('click', oEle, function (event) {
+            console.log($oEle);
+            gtag('event', params, {
+                'method': 'Google',
+                'event_category': params,
+                'event_action': params,
+                'event_label': params
+            });
+        });
+    };
+
+</script>
+
+</html>
